@@ -1,1 +1,1 @@
-#Live Url - https://ranemoji-generator.herokuapp.com
+#Live Url - https://random-emoji-generator.netlify.app/
