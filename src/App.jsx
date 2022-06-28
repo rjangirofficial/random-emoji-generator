@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 
 function App() {
 
@@ -19,16 +19,12 @@ function App() {
     setLodaing(false)
   }
 
-  useEffect(()=>{
-    EmojiGenerator()
-  },[])
-
   return (
     <>
 
       <div className="main">
         <h3 className='title'>Random Emoji Generator</h3>
-        <h1 id='emoji_tag'></h1>
+        <h1 id='emoji_tag'> </h1>
         {
           loading && <h3 className='generating'>Generating</h3>
         }
